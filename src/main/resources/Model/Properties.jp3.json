@@ -1,0 +1,116 @@
+{
+    "@jme3:clazz": "org.monkey.JmeProperties",
+    "@jme3:versions": [1],
+    "@jme3:format_version": 2,
+    "@jme3:signature": 1246577971,
+    "JmeMap": {
+        "color": {
+            "a": 1,
+            "r": 0.24550569,
+            "b": 0.73360896,
+            "@jme3:clazz": "com.jme3.math.ColorRGBA",
+            "@jme3:versions": [0],
+            "g": 0.8131576
+        },
+        "data": {
+            "@jme3:clazz": "org.monkey.JmePrimitive",
+            "@jme3:versions": [0],
+            "JmeType": "Boolean",
+            "boolVal": true
+        },
+        "data_str": {
+            "@jme3:clazz": "org.monkey.JmeArray",
+            "@jme3:versions": [1],
+            "JmeArray": [{
+                    "@jme3:clazz": "org.monkey.JmeArray",
+                    "@jme3:versions": [1],
+                    "JmeArray": [{
+                            "@jme3:clazz": "org.monkey.JmePrimitive",
+                            "@jme3:versions": [0],
+                            "charVal": "a",
+                            "JmeType": "Character"
+                        }, {
+                            "@jme3:clazz": "org.monkey.JmePrimitive",
+                            "@jme3:versions": [0],
+                            "charVal": "b",
+                            "JmeType": "Character"
+                        }, {
+                            "@jme3:clazz": "org.monkey.JmePrimitive",
+                            "@jme3:versions": [0],
+                            "charVal": "c",
+                            "JmeType": "Character"
+                        }, {
+                            "@jme3:clazz": "org.monkey.JmePrimitive",
+                            "@jme3:versions": [0],
+                            "charVal": "d",
+                            "JmeType": "Character"
+                        }]
+                }, {
+                    "@jme3:clazz": "org.monkey.JmeArray",
+                    "@jme3:versions": [1],
+                    "JmeArray": [{
+                            "intVal": 1,
+                            "@jme3:clazz": "org.monkey.JmePrimitive",
+                            "@jme3:versions": [0],
+                            "JmeType": "Int"
+                        }, {
+                            "@jme3:clazz": "org.monkey.JmePrimitive",
+                            "@jme3:versions": [0],
+                            "JmeType": "Boolean",
+                            "boolVal": true
+                        }, {
+                            "intVal": 2,
+                            "@jme3:clazz": "org.monkey.JmePrimitive",
+                            "@jme3:versions": [0],
+                            "JmeType": "Int"
+                        }, {
+                            "@jme3:clazz": "org.monkey.JmePrimitive",
+                            "@jme3:versions": [0],
+                            "JmeType": "Boolean"
+                        }, {
+                            "intVal": 3,
+                            "@jme3:clazz": "org.monkey.JmePrimitive",
+                            "@jme3:versions": [0],
+                            "JmeType": "Int"
+                        }, {
+                            "@jme3:clazz": "org.monkey.JmePrimitive",
+                            "@jme3:versions": [0],
+                            "JmeType": "Boolean",
+                            "boolVal": true
+                        }, {
+                            "intVal": 4,
+                            "@jme3:clazz": "org.monkey.JmePrimitive",
+                            "@jme3:versions": [0],
+                            "JmeType": "Int"
+                        }, {
+                            "@jme3:clazz": "org.monkey.JmePrimitive",
+                            "@jme3:versions": [0],
+                            "JmeType": "Boolean",
+                            "boolVal": true
+                        }]
+                }, {
+                    "@jme3:clazz": "org.monkey.JmeArray",
+                    "@jme3:versions": [1],
+                    "JmeArray": [{
+                            "@jme3:clazz": "org.monkey.JmeNull",
+                            "@jme3:versions": [0]
+                        }, {
+                            "@jme3:clazz": "org.monkey.JmePrimitive",
+                            "@jme3:versions": [0],
+                            "stringVal": "myDoc",
+                            "JmeType": "String"
+                        }, {
+                            "@jme3:clazz": "org.monkey.JmePrimitive",
+                            "@jme3:versions": [0],
+                            "stringVal": "JavaDoc",
+                            "JmeType": "String"
+                        }, {
+                            "@jme3:clazz": "org.monkey.JmePrimitive",
+                            "@jme3:versions": [0],
+                            "stringVal": "-data",
+                            "JmeType": "String"
+                        }]
+                }]
+        }
+    }
+}

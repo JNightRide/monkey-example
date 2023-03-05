@@ -1,0 +1,45 @@
+plugins {
+    id 'java'
+}
+
+group 'org.monkey.example'
+version '1.0-SNAPSHOT'
+
+project.ext {
+    jmeVer = '3.5.2-stable'
+}
+
+repositories {
+    // to find libraries in the project's "lib" directory
+    flatDir {
+        dirs "${rootProject.projectDir}/lib"
+    }
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+
+    implementation "org.jmonkeyengine:jme3-core:$jmeVer"
+    implementation "org.jmonkeyengine:jme3-desktop:$jmeVer"
+
+    // choose lwjgl 2 or 3
+    // implementation "org.jmonkeyengine:jme3-lwjgl:$jmeVer"
+    implementation "org.jmonkeyengine:jme3-lwjgl3:$jmeVer"
+    implementation "org.jmonkeyengine:jme3-jbullet:$jmeVer"
+    implementation "org.jmonkeyengine:jme3-testdata:$jmeVer"
+    implementation "org.jmonkeyengine:jme3-plugins:$jmeVer"
+
+    // https://mvnrepository.com/artifact/org.jdom/jdom2
+    implementation group: 'org.jdom', name: 'jdom2', version: '2.0.6.1'
+
+    // https://mvnrepository.com/artifact/org.json/json
+    implementation group: 'org.json', name: 'json', version: '20220924'
+
+    implementation name: 'monkey-core-v1.6.5'
+}
+
+test {
+    useJUnitPlatform()
+}
